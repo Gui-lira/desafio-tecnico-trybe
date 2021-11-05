@@ -10,3 +10,5 @@ const connection = async () => {
     db = await conn.db('Todos');
     return db;
 };
+
+module.exports = connection;
